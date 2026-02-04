@@ -27,6 +27,7 @@ export interface ResumeData {
     degree: string;
     start: string;
     end: string;
+    description?: string | React.ReactNode;
   }>;
   work: Array<{
     company: string;

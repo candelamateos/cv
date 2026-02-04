@@ -1,6 +1,8 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
+  initials: "CMV",
+  personalWebsiteUrl: "https://candelamateos.com",
   name: "Candela Mateos Valverde",
   location: "Madrid, Spain",
   locationLink: "https://www.google.com/maps/place/Madrid",
@@ -141,12 +143,7 @@ export const RESUME_DATA: ResumeData = {
      {
       title: "PlantsVsZombies",
       techStack: ["Java", "JUnit", "OOP"],
-      description: (
-        <>
-          Engineered a Java-based strategy game using Test-Driven Development (TDD).
-          Achieved high code coverage with JUnit, ensuring the reliability of complex game logic and Object-Oriented interactions.
-        </>),
-    
+      description: "Engineered a Java-based strategy game using Test-Driven Development (TDD). Achieved high code coverage with JUnit, ensuring the reliability of complex game logic and Object-Oriented interactions.",
       link: {
         label: "PlantsVsZombies GitHub",
         href: "https://github.com/candelamateos/PlantsVsZombies",

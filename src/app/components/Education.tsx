@@ -32,7 +32,7 @@ interface EducationItemProps {
  * Individual education card component
  */
 function EducationItem({ education }: EducationItemProps) {
-  const { school, start, end, degree } = education;
+  const { school, start, end, degree, description} = education;
 
   return (
     <Card>
@@ -54,6 +54,12 @@ function EducationItem({ education }: EducationItemProps) {
           .replace(/\s+/g, "-")}`}
       >
         {degree}
+
+        {description && (
+          <div className="mt-2 text-sm text-muted-foreground whitespace-pre-line">
+            {description}
+          </div>
+        )}
       </CardContent>
     </Card>
   );
