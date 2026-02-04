@@ -53,6 +53,12 @@ export const RESUME_DATA: ResumeData = {
       degree: "Estalmat Project",
       start: "2017",
       end: "2019",
+      description: (
+        <>
+          Selected for a prestigious program by the Royal Spanish Academy of Sciences for students with exceptional mathematical aptitude.
+          Focused on advanced logic and mathematical theory.
+        </>
+      ),
     }
 	
 
@@ -149,5 +155,26 @@ export const RESUME_DATA: ResumeData = {
         href: "https://github.com/candelamateos/PlantsVsZombies",
       },
     },
+    {
+    title: "Collaborative Music Social Platform (AI-Driven)",
+    techStack: ["Figma", "Product Design", "AI Personalization", "Systems Modeling", "User Research"],
+    description: 
+      "Architected the full-cycle modeling of a social music app featuring AI-generated collaborative jams and playlists. Led the four stages of product development: Investigation , Conceptualization, Prototyping (Figma modeling), and Validation."  ,
+  link: {
+    label: "Figma Prototype",
+    href: "https://chief-enamel-82440898.figma.site",
+  },
+},
+{
+  title: "Professional Engineering Portfolio",
+  techStack: ["TypeScript", "Next.js 14", "Tailwind CSS", "Vercel CI/CD"],
+  description: (
+    "Developed and deployed a accessible web-based curriculum. Forked and customized an open-source architecture to implement a new typed data schema. Optimized for print-to-PDF consistency and integrated Vercel CI/CD for automated deployment pipelines."
+  ),
+  link: {
+    label: "candelamateoscv.vercel.app",
+    href: "https://candelamateoscv.vercel.app/",
+  },
+},
   ],
 } as const;
