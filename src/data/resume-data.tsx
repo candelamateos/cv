@@ -2,7 +2,7 @@ import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
   initials: "CMV",
-  personalWebsiteUrl: "https://candelamateos.com",
+  personalWebsiteUrl: "https://candelamateoscv.vercel.app/",
   name: "Candela Mateos Valverde",
   location: "Madrid, Spain",
   locationLink: "https://www.google.com/maps/place/Madrid",
@@ -60,7 +60,6 @@ export const RESUME_DATA: ResumeData = {
         </>
       ),
     }
-	
 
   ],
   work: [
