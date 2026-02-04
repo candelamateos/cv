@@ -31,7 +31,7 @@ function BadgeList({
       {badges.map((badge) => (
         <li key={badge}>
           <Badge
-            variant="secondary"
+            variant="mustard"
             className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
           >
             {badge}
