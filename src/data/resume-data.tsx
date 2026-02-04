@@ -1,236 +1,158 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Candela Mateos Valverde",
+  location: "Madrid, Spain",
+  locationLink: "https://www.google.com/maps/place/Madrid",
+  about: "Last year student of the Double Bachelor in Computer Engineering and Mathematics",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Double Bachelor student in Mathematics and Computer Engineering with a keen interest in participating in high-impact engineering projects. Developer and published music artist (Spotify: La extinción), combining a deep understanding of algorithmic complexity with a passion for audio engineering and creation.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "/FOTO CV 1.jpg",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "candelamateosvalverde@gmail.com",
+    tel: "+34 662 049 409",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/candelamateos",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/candelamateos/",
         icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad Complutense de Madrid",
+      degree: "Double Bachelor's Degree in Mathematics and Computer Engineering",
+      description: (
+        <>
+          Relevant Coursework: Data Structures and Algorithms, Discrete Mathematics, Linear Algebra, Probability and Statistics, Software Engineering, Database Systems, Operating Systems, Numerical Analysis.
+        </>
+      ),
+      start: "2021",
+      end: "2025",
     },
+
+{
+      school: "Universität Leipzig",
+      degree: "Exchange Program in Computer Science and Mathematics",
+      start: "2023",  
+      end: "2024",
+},   
+{
+      school: "University of Seville",
+      degree: "Estalmat Project",
+      start: "2017",
+      end: "2019",
+    }
+	
+
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
+      company: "Jóvenes Promesas",
+      link: "https://jovenespromesas.org/",
+      badges: ["Remote", "Data Bases", "Scrum", "Entrepreneurship", "Leadership", "Social Impact"],
+      title: "Administrator",
+      start: "2021",
+      end: "2023",
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
+          Supervised the coordination and management of programs aimed at fostering young talent in communication.
+          Managed databases and implemented Scrum methodologies to streamline project delivery.
+        </>
+      ),
+    },
+
+    {
+      company: "Camps for friends",
+      link: "camps-for-friends.com",
+      badges: [
+        "On Site", "Leadership", "Organization", "Communication in German", "Problem Solving"
+      ],
+      title: "Camp Coordinator",
+      start: "2025",
+      end: "2025",
+      description: (
+        <>
+          I managed the operational logistics and care of over 100 children at a language camp in Germany.
+          I coordinated activities, provided translation, and solved both logistical and child-related problems.
         </>
       ),
     },
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Freelance teacher",
+      link: "https://www.freelancer.com/u/candelamateos",
+      badges: ["Remote", "Python", "Mathematics", "Communication", "Problem Solving", "Online Classes"],
+      title: "STEM Mentor for Young Students",
       start: "2024",
       end: "2025",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
+         Designed and delivered technical curriculum for gifted students, focusing on Data Analysis with Pandas and NumPy 
+         and Algorithm Visualization with Matplotlib. Mentored students in building functional games using Pygame, emphasizing logic 
+         and event-driven programming.
+      
+        </>),
     },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
-    },
+    
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+   "Languages: Python, Java, C++, TypeScript, Haskell, C",
+
+    "Web/Backend: React, Next.js, Node.js, SQL, NoSQL",
+
+    "Mathematics/Data: MATLAB, R, LaTeX, Algorithmic Optimization, Statistical Analysis",
+
+    "Tools: Git, Bash, Scrum, Docker",
+    "Languages: Spanish (Native), English (C1), German (B2)"
   ],
   projects: [
+
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
+      title: "Travel Agent Management System",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Java",
+        "Swing/JavaFX", 
+        "JSON", "OOP", 
+        "Design Patterns"
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Developed a robust management system focusing on Software Engineering principles and clean architecture. Implemented JSON-based data persistence for image metadata and user records, ensuring efficient data serialization and system state management through Object-Oriented Design.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Agencia de viajes",
+        href: "https://github.com/candelamateos/IS2",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "La extinción",
+      techStack: ["Music Composition", "Piano", "Digital Audio Workstation", "Sound Design", "Artist management"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "A musical composition project published on Spotify and other platforms, showcasing skills in music production and composition.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "La extinción",
+        href: "https://open.spotify.com/intl-es/album/2sBtkGrDFP1KEw9TEVR390?utm_source=copy-link&utm_medium=social&utm_content=link_in_bio",
+      },
+    },
+     {
+      title: "PlantsVsZombies",
+      techStack: ["Java", "JUnit", "OOP"],
+      description: (
+        <>
+          Engineered a Java-based strategy game using Test-Driven Development (TDD).
+          Achieved high code coverage with JUnit, ensuring the reliability of complex game logic and Object-Oriented interactions.
+        </>),
+    
+      link: {
+        label: "PlantsVsZombies GitHub",
+        href: "https://github.com/candelamateos/PlantsVsZombies",
       },
     },
   ],
