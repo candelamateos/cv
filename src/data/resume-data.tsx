@@ -10,7 +10,7 @@ export const RESUME_DATA: ResumeData = {
       Double Bachelor student in Mathematics and Computer Engineering with a keen interest in participating in high-impact engineering projects. Developer and published music artist (Spotify: La extinción), combining a deep understanding of algorithmic complexity with a passion for audio engineering and creation.
     </>
   ),
-  avatarUrl: "/FOTO CV 1.jpg",
+  avatarUrl: "/FOTOCV1.jpg",
   contact: {
     email: "candelamateosvalverde@gmail.com",
     tel: "+34 662 049 409",
@@ -106,11 +106,8 @@ export const RESUME_DATA: ResumeData = {
   ],
   skills: [
    "Languages: Python, Java, C++, TypeScript, Haskell, C",
-
     "Web/Backend: React, Next.js, Node.js, SQL, NoSQL",
-
     "Mathematics/Data: MATLAB, R, LaTeX, Algorithmic Optimization, Statistical Analysis",
-
     "Tools: Git, Bash, Scrum, Docker",
     "Languages: Spanish (Native), English (C1), German (B2)"
   ],
