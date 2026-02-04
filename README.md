@@ -1,4 +1,3 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
 
 # Minimalist CV
 
@@ -34,49 +33,6 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 - **GraphQL**: [Apollo Server](https://www.apollographql.com/) + [TypeGraphQL](https://typegraphql.com/)
 - **Package Manager**: [pnpm](https://pnpm.io/)
 - **Deployment**: Optimized for [Vercel](https://vercel.com/)
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- pnpm 8+
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
-   cd cv
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   pnpm install
-   ```
-
-3. **Start the development server**
-
-   ```bash
-   pnpm dev
-   ```
-
-4. **Open [http://localhost:3000](http://localhost:3000)** in your browser
-
-5. **Customize your CV**
-   
-   Edit the [src/data/resume-data.tsx](./src/data/resume-data.tsx) file to add your personal information, work experience, education, and skills.
-
-### Available Scripts
-
-```bash
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm start        # Start production server
-pnpm lint         # Run ESLint
-```
 
 ## 📁 Project Structure
 
