@@ -9,8 +9,10 @@ export const RESUME_DATA: ResumeData = {
   about: "Last year student of the Double Bachelor in Computer Engineering and Mathematics",
   summary: (
     <>
-      Double Bachelor student in Mathematics and Computer Engineering with a keen interest in participating in high-impact engineering projects. Developer and published music artist (Spotify: La extinción), combining a deep understanding of algorithmic complexity with a passion for audio engineering and creation.
+      Double Bachelor student in Mathematics and Computer Engineering with a strong interest in high-impact engineering projects. 
+      Seeking my first professional experience aligned with my academic and career goals.
     </>
+
   ),
   avatarUrl: "/FOTOCV1.jpg",
   contact: {
@@ -55,8 +57,8 @@ export const RESUME_DATA: ResumeData = {
       end: "2019",
       description: (
         <>
-          Selected for a prestigious program by the Royal Spanish Academy of Sciences for students with exceptional mathematical aptitude.
-          Focused on advanced logic and mathematical theory.
+          "A selective national program for the stimulation of mathematical talent during school years.
+          Focused on non-routine problem solving, discrete mathematics, and algorithmic thinking through weekly advanced seminars led by university professors."
         </>
       ),
     }
