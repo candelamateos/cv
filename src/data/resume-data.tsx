@@ -40,8 +40,8 @@ export const RESUME_DATA: ResumeData = {
           Relevant Coursework: Data Structures and Algorithms, Discrete Mathematics, Linear Algebra, Probability and Statistics, Software Engineering, Database Systems, Operating Systems, Numerical Analysis.
         </>
       ),
-      start: "2021",
-      end: "2025",
+      start: "2022",
+      end: "2026",
     },
 
 {
@@ -54,7 +54,7 @@ export const RESUME_DATA: ResumeData = {
       school: "University of Seville",
       degree: "Estalmat Project",
       start: "2017",
-      end: "2019",
+      end: "2020",
       description: (
         <>
           "A selective national program for the stimulation of mathematical talent during school years.
